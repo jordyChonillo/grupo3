@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav_bar/nav_bar.css">
+    <link rel="stylesheet" href="main_cont/main_cont.css">
+    <link rel="stylesheet" href="sec_alim/sec_alim.css">
+    <link rel="stylesheet" href="sec_emo/sec_emo.css">
+    <link rel="stylesheet" href="sec_eje/sec_eje.css">
+    <link rel="stylesheet" href="sec_hi/sec_hi.css">
+    <link rel="stylesheet" href="sec_enf/sec_enf.css">
+    <link rel="stylesheet" href="footer/foot.css">
+    <title>Salud</title>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+    .swiper-container {
+      width: 91.4%;
+      height: 570px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+      border: 1px solid #e9e6e6;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* centra el texto verticalmente */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="cont-flex">
+            <div class="logo">
+                <img class="img" src="nav_bar/logo.jpg" alt="">
+            </div>
+            
+            <nav class="bar-nav">
+                <ul class="conj-list">
+                    <li><a href="#1">Alimentación</a></li>
+                    <li><a href="#2">Emocional</a></li>
+                    <li><a href="#3">Ejercitación</a></li>
+                    <li><a href="#4">Higiene</a></li>
+                    <li><a href="#5">Covid-19</a></li>
+            
+                </ul>
+            </nav>
+        </div>
+    </header>
+      <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url(https://www.ecestaticos.com/imagestatic/clipping/d22/720/d2272018f8796268171ac38d6728108b/alimentacion-sana-lo-que-deberias-comer-exactamente-cada-dia.jpg?mtime=1540307775);"></div>
+      <div class="swiper-slide" style="background-image: url(https://data2.1freewallpapers.com/download/jump-people-happiness.jpg);"></div>
+      <div class="swiper-slide" style="background-image: url(https://www.ecestaticos.com/imagestatic/clipping/d22/720/d2272018f8796268171ac38d6728108b/alimentacion-sana-lo-que-deberias-comer-exactamente-cada-dia.jpg?mtime=1540307775);"></div>
+      <div class="swiper-slide" style="background-image: url(https://www.ecestaticos.com/imagestatic/clipping/f53/bc5/f53bc5b5708f308248c7e8aaf0938b0c/consejos-de-limpieza-para-mantener-el-coronavirus-alejado-de-casa.jpg?mtime=1588841202);"></div>
+      <div class="swiper-slide" style="background-image: url(https://pastoralsj.org/images/post/series/misericordia/enfermo.jpg);"></div>
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+    <div class="main_cont">
+
+        <!-- SECCIÓN DE ALIMENTACIÓN --> 
+
+        <div class="sec_alim">
+          <h2 class="sec_alim__h2" id="1">ALimentación</h2>
+          <p class="sec_alim__p">La alimentación es un elemento importante en la buena salud, influye la calidad de los alimentos, la cantidad de comida y los hábitos alimentarios para un bienestar del ser humano, con lo cual se obtiene una  nutrición equilibrada.
+            Las frutas y los vegetales contienen vitaminas, minerales, carbohidratos y fibra. Estas sustancias son necesarias para mantener el funcionamiento del organismo durante todas las etapas de la vida.
+            Por tal razón se recomienda comer diariamente dos frutas y dos tipos de vegetales. Los jarabes o pastillas de vitaminas no pueden sustituir una alimentación variada y completa que contiene todas las vitaminas y minerales necesarios.
+            En nuestro país hay gran variedad de frutas y verduras durante todo el año, aproveche para comprar las que están en cosecha. Cuando compre frutas que están en cosecha. Cuando compre frutas o verduras escójalas frescas, firmes y de color vivo y brillante.  Las que se encuentren marchitas han perdido vitaminas.
+            Al cocinar las verduras utilice poca agua y el menor tiempo posible, para evitar que pierdan las vitaminas. Use el agua en que cocina las verduras para preparar las comidas.   
+            Prepare frescos naturales, con uno o varios tipos de frutas. El jugo de naranja natural se puede congelar sin perder la vitamina C.</p>
+          <h2 class="sec_alim__h3">Las vitaminas</h2>
+          <p class="sec_alim__p2">Las vitaminas y los minerales son sustancias que se encuentran en los alimentos que comes. Tu cuerpo las necesita para funcionar correctamente y para crecer y desarrollarte como debería. En lo que respecta a las vitaminas, cada una tiene un papel especial que cumplir. Por ejemplo:<br>
+
+            <br>➤La vitamina D de la leche ayuda a tus huesos a crecer.
+            <br>➤La vitamina A de las zanahorias te ayuda a ver por la noche.
+            <br>➤La vitamina C de las naranjas ayuda a que tu cuerpo cicatrice cuando te cortas.
+            <br>➤Las vitaminas B de los cereales integrales ayudan a que tu cuerpo fabrique energía a partir de los alimentos.
+          </p>  
+          <img class="sec_alim_img" src="https://pbs.twimg.com/media/B_KqrwHVIAA8tKR.jpg:large" alt="">
+        </div>
+
+        <!-- SECCIÓN DE SALUD EMOCIONAL --> 
+
+        <div class="sec_emo" id="2">
+          <h2 class="sec_emo__h2">Salud emocional</h2>
+          <p class="sec_emo__p">La salud emocional es una parte importante de la salud general. Las personas que son emocionalmente saludables tienen el control de sus pensamientos, sentimientos y comportamientos. Son capaces de hacer frente a los desafíos de la vida. Pueden mantener los problemas en perspectiva y recuperarse de los contratiempos. Se sienten bien con ellos mismos y mantienen relaciones saludables.
+
+            Ser emocionalmente saludable no significa que sea feliz todo el tiempo. Significa que es consciente de sus emociones. Puede lidiar con ellas, ya sean positivas o negativas. Las personas sanas emocionalmente también sienten estrés, enojo y tristeza. Pero saben cómo manejar sus sentimientos negativos. Pueden saber cuándo un problema es más de lo que pueden manejar solos. También saben cuándo buscar ayuda de su médico.
+            
+            La investigación muestra que la salud emocional es una habilidad. Hay pasos que usted puede seguir para mejorar su salud emocional y ser más feliz.</p>
+          <h2 class="sec_emo__h3">El camino hacia una mejor salud</h2>
+          <p class="sec_emo__p2">La salud emocional le permite trabajar de manera productiva y lidiar con el estrés de la vida cotidiana. Puede ayudarlo a alcanzar su máximo potencial. Lo ayuda a trabajar con otras personas y contribuir a la sociedad.
+            También afecta su salud física. La investigación muestra un vínculo entre un estado mental optimista y signos físicos de buena salud. Estos incluyen una presión arterial más baja, un menor riesgo de enfermedad cardíaca y un peso más saludable. 
+            Hay muchas formas de mejorar o mantener una buena salud emocional.
+          </p>
+          <ul class="sec_emo__ul">
+            <li>➤Sea consciente de sus emociones y reacciones.Observe lo que lo pone triste, frustrado o enojado. Intente abordar o cambiar esas cosas.</li>
+            <li>➤Exprese sus sentimientos de manera apropiada.Informe a las personas cercanas a usted cuando algo le molesta. Mantener ocultos los sentimientos de tristeza o enojo aumenta el estrés. Esto puede causar problemas en sus relaciones y en el trabajo o la escuela.</li>
+            <li>➤Piense antes de actuar.Dese tiempo para pensar y estar tranquilo antes de decir o hacer algo de lo que pueda arrepentirse.</li>
+            <li>➤Maneje el estrés. Aprenda métodos de relajación para lidiar con el estrés. Estos podrían incluir respiración profunda, meditación y ejercicio.</li>
+            <li>➤Cuide su salud física. Haga ejercicio regularmente, coma comidas saludables y duerma lo suficiente. Evite que la salud física afecte su salud emocional.</li>
+          
+          
+          </ul>
+          <img class="sec_emo_img" src="https://d2m1kqghccc19k.cloudfront.net/wp-content/uploads/2019/10/19171638/JKSDFH.jpg" alt="">
+        </div>
+
+        <!-- SECCIÓN DE EJERCITACIÓN --> 
+
+        <div class="sec_eje">
+          <h2 class="sec_eje__h2" id="3">La ejercitación</h2>
+          <p class="sec_eje__p">
+            
+            Realizar actividad física de manera regular puede ser más benéfico de lo que creemos ya que no solo será una manera de quemar calorías y perder peso sino una forma de beneficiar a nuestro cuerpo en muchos sentidos, contribuyendo a la buena salud física y mental.
+            Se considera actividad física cualquier movimiento corporal que exige un gasto de energía. Realizar una actividad física significa simplemente “moverse” y abarca el ejercicio pero también otras actividades como el juego, una forma activa de transporte, actividades recreativas entre otras.
+            La actividad física debe de ser moderada y constante para que realmente se obtengan efectos benéficos para la salud y se logre la prevención de enfermedades. Se ha demostrado que la actividad física regular ayuda a aliviar el estrés, es una forma natural de combatir y reducir los síntomas de la ansiedad y la depresión, reduce la presión arterial y el riesgo de padecer enfermedades cardiovasculares y diabetes, así como algunos tipos de cáncer, en específico el de colon y mama, y es una manera de prevenir enfermedades musculares y la osteoporosis.</p>
+
+          <p class="sec_eje__p2">La actividad regular puede contribuir a un mejor control de peso e influir positivamente en la cantidad y calidad de lo que consumimos. Se ha visto que cuando se realiza actividad física de manera habitual se mejora notablemente la autoestima, lo cual se ha demostrado se asocia a una dieta más sana, en la que se toman mejores decisiones alimentarias y se evita el consumo de alimentos con un alto contenido de grasas y azúcares. En pocas palabras, el ejercicio puede reducir los deseos de comer este tipo de alimentos poco sanos y ricos en calorías.
+            Existe una relación entre el nivel de actividad física y la esperanza de vida, de modo que las personas que son físicamente más activas suelen vivir más que aquellas que llevan una vida más sedentaria o con menos actividad.<br><b>A continuación te mostramos una rutina de ejercicios para todo en cuerpo de 30 minutos :</b>
+          </p>  
+          <iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/734f_8z8yL4?start=6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <!-- SECCIÓN DE HIGIENE --> 
+
+        <div class="sec_hi">
+          <h2 class="sec_hi__h2" id="4">La higiene</h2>
+          <p class="sec_hi__p">Mantener la higiene personal, así como en el ámbito doméstico y laboral, es indispensable para cuidar la salud propia y ajena ya que genera protección frente a enfermedades y aumenta la calidad de vida de los individuos. Para esto es importante incorporar hábitos y rutinas de higiene, como cepillarse los dientes o lavarse el cabello, que deben trasmitirse de generación en generación en el entorno familiar y educativo.
+
+            La salud de una comunidad depende de la salud de cada miembro de la población. Por eso es importante generar campañas de concientización que brinden información sobre la importancia de algunas prácticas, como el lavado de manos o la limpieza en el entorno laboral.<b> Algunos tipos de higiene más importantes son:</b></p>
+          <h3 class="sec_hi__h3">Tipos de higiene</h3>
+          <ul class="sec_hi__ul">
+
+            <li><b>➤Higiene del cuerpo:</b>
+
+            Implica prácticas que contribuyen a la limpieza corporal, con especial atención a la piel, las uñas y el cabello.
+            
+            La piel es el mayor órgano del cuerpo y lo protege de posibles agresiones del ambiente. Para que se encuentre en buen estado, se recomienda la remoción de piel seca, polvo y las secreciones de las glándulas del cuerpo. Es importante destacar que el abuso de algunos productos de limpieza, como el cloro o el detergente son nocivos para la piel.</li>
+            <li>➤<b>Higiene bucal:</b>
+
+            Refiere a aquellas prácticas de limpieza del cuerpo, específicamente boca, lengua, encías y dientes. Para esto se recomiendan hábitos como: cepillarse los dientes con regularidad, asistir al dentista para un control o utilizar hilo dental.
+            <li>➤<b>Higiene escolar:</b>
+            
+            Refiere a las prácticas de higiene que se llevan a cabo dentro de una escuela o universidad. Por un lado, incluye la enseñanza y fomento de hábitos de higiene en el alumnado y demás miembros de la institución. Además, tiene en cuenta la limpieza y mantención en óptimas condiciones de los espacios comunes como aulas, baños y oficinas.</li>
+            
+            
+          </ul>
+          </p>  
+          <img class="sec_hi_img" src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2016/10/26164844/Ba%C3%B1arse12.jpg" alt="">
+        </div>
+
+        <!-- SECCIÓN DE VIDEO INFORMATIVO SOBRE COVID - 19 --> 
+
+        <div class="sec_enf" id="5">
+          <h2 class="sec_enf__h2">Video informativo sobre el covid-19</h2>
+          <iframe width="1000" height="600" src="https://www.youtube.com/embed/6P5SRY2oc3o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </div>
+    <footer>
+        <div class="f_container">
+           <div class="f_section1">
+                <p><b>Integrantes</b></p>
+                <ul class="f_list">
+                    <li>- Jordy Chonillo</li>
+                    <li>- Bryan Paladines</li>
+                    <li>- Sebástian León</li>
+                    <li>- Danny Gonzáles</li>
+                    <li>- Marco Tapia</li>
+                    <li>- Alisson Toledo</li>
+                </ul>
+           </div> 
+           <div class="f_section2">
+                <p class="f_s2_p1"><b>Unidad Educativa Enrique Gil Gilbert</b></p>
+                <p class="f_s2_p2">Curso: 2"do" de Informática<br>Tutora: Msc. Yessenia Alvarez<br>Año lectivo:2020-2021</p>
+           </div>
+           <div class="f_section3">
+               <p><b>Nosotros</b></p>
+               <p class="s_par">Somos un grupo de estudiantes con el único obejtivo de ayudar a la sociedad por medio de los diferentes medios tenológicos, nuestra misión es concientizar a las personas sobre los aspectos más importantes de su salud.</p>
+                <p></p>
+           </div>
+
+        </div>
+    </footer>
+    <div class="up"></div>
+</body>
+</html>

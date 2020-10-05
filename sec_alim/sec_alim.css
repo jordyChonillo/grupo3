@@ -1,0 +1,32 @@
+.sec_alim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 87.6%;
+    height: 750px;
+    margin-top: 50px;
+    padding: 30px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e9e6e6;
+
+}
+.sec_alim__h2{
+    margin-bottom: 10px;
+}
+.sec_alim__h3{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sec_alim__p{
+    text-align: justify;
+}
+.sec_alim__p2{
+    margin-bottom: 20px;
+}
+.sec_alim_img{
+    width: 1000px;
+    height: 400px;
+    border: 1px solid #e9e6e6;
+}
