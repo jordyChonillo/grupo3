@@ -20,7 +20,6 @@ header{
 .logo{
     width: 100px;
     height: 100px;
-    background-color: blue;
 }
 img{
     width: 100px;
@@ -47,8 +46,3 @@ nav ul li a:hover{
     color:rgb(117, 155, 43);
 }
 
-.up{
-    width: 400px;
-    height: 40px;
-    background-color: blue;
-}
